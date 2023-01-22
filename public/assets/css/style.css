@@ -1,0 +1,64 @@
+.value-black {
+    color: black;
+}
+
+.nama-wisata {
+    font-size: 20px;
+}
+
+.cardz {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    /* padding: 10px; */
+    /* padding: 1.8rem; */
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+
+.cardz-details {
+    height: 100%;
+    color: black;
+    display: grid;
+    place-content: center;
+}
+
+.cardz-button {
+    transform: translate(-50%, 100%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    /* background-color: #008bf8; */
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+}
+
+.text-body {
+    color: rgb(134, 134, 134);
+}
+
+/*Text*/
+.text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Hover*/
+.cardz:hover {
+    border-color: #008bf8;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.cardz:hover .cardz-button {
+    transform: translate(-50%, -25%);
+    opacity: 1;
+}
